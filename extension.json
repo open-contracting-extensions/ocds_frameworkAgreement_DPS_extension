@@ -1,0 +1,21 @@
+{
+  "name": {
+    "en": "EU procurement techniques"
+  },
+  "description": {
+    "en": "This extension aims primarily at supporting the description of framework agreements  (FA) and dynamic purchasing systems (DPS) formatted according to eForms data structure, but it also aims at enabling the OCDS publication of TED v2.0.9 data."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_procurement_techniques_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+],
+"codelists": [
+    "dynamicPurchasingSystem.csv",
+    "frameworkAgreementCompetition.csv"
+]
+}

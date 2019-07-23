@@ -1,0 +1,83 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "procurementTechnique": {
+          "title": "Procurement technique",
+          "description": "The details of the procurement technique used in this contracting process (based on EU eForms data model)",
+          "type": "object",
+          "properties": {
+            "maxNumberTenderers": {
+              "title": "Maximum number of tenderers",
+              "description": "The maximum number of tenderers that may be awarded a contract in the framework agreement. Set to 0 for an unlimited number of tenderers.",
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "frameworkAgreementCompetition": {
+              "title": "Framework agreement competition",
+              "description": "Whether or not the competition is reopened for each subsequent contract of the framework agreement.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "openCodelist": false,
+              "codelist": "frameworkAgreementCompetition.csv"
+            },
+            "frameworkAgreementDurationJustification": {
+              "title": "Framework agreement duration justification",
+              "description": "The justification for exceptional cases when the duration of framework agreements exceeds the legal limits.",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "frameworkAgreementBuyerCategories": {
+              "title": "Framework agreement buyer categories",
+              "description": "Any additional categories of buyers participating in the framework agreement and not mentioned by name (e.g. 'all hospitals in the Tuscany region').",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "dynamicPurchasingSystem": {
+              "title": "Dynamic purchasing system",
+              "description": "Whether a dynamic purchasing system is involved and, in case of central purchasing bodies, whether it can be used by buyers not listed in this procedure.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "openCodelist": false,
+              "codelist": "dynamicPurchasingSystem.csv"
+            },
+            "electronicAuction": {
+              "title": "Electronic auction",
+              "description": "Whether or not an electronic auction is used.",
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "electronicAuctionURL": {
+              "title": "Electronic auction URL",
+              "description": "The internet address of the electronic auction.",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "electronicAuctionDescription": {
+              "title": "Electronic auction description",
+              "description": "Any additional information about the electronic auction.",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
