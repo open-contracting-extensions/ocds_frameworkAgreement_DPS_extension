@@ -2,21 +2,21 @@
   "definitions": {
     "Tender": {
       "properties": {
-        "procurementTechnique": {
-          "title": "Procurement technique",
-          "description": "The details of the procurement technique used in this contracting process (based on EU eForms data model)",
+        "frameworkAgreement": {
+          "title": "Framework agreement",
+          "description": "The details of the framework agreement",
           "type": "object",
           "properties": {
-            "maxNumberTenderers": {
-              "title": "Maximum number of tenderers",
+            "maximumNumberSelectedTenderers": {
+              "title": "Maximum number of selected tenderers",
               "description": "The maximum number of tenderers that may be awarded a contract in the framework agreement. Set to 0 for an unlimited number of tenderers.",
               "type": [
                 "number",
                 "null"
               ]
             },
-            "frameworkAgreementCompetition": {
-              "title": "Framework agreement competition",
+            "competitionReopening": {
+              "title": "Reopening of the competition in the framework agreement",
               "description": "Whether or not the competition is reopened for each subsequent contract of the framework agreement.",
               "type": [
                 "string",
@@ -25,15 +25,15 @@
               "openCodelist": false,
               "codelist": "frameworkAgreementCompetition.csv"
             },
-            "frameworkAgreementDurationJustification": {
-              "title": "Framework agreement duration justification",
+            "durationRationale": {
+              "title": "Framework agreement duration rationale",
               "description": "The justification for exceptional cases when the duration of framework agreements exceeds the legal limits.",
               "type": [
                 "string",
                 "null"
               ]
             },
-            "frameworkAgreementBuyerCategories": {
+            "buyerCategories": {
               "title": "Framework agreement buyer categories",
               "description": "Any additional categories of buyers participating in the framework agreement and not mentioned by name (e.g. 'all hospitals in the Tuscany region').",
               "type": [
@@ -50,32 +50,32 @@
               ],
               "openCodelist": false,
               "codelist": "dynamicPurchasingSystem.csv"
-            },
-            "electronicAuction": {
-              "title": "Electronic auction",
-              "description": "Whether or not an electronic auction is used.",
-              "type": [
-                "boolean",
-                "null"
-              ]
-            },
-            "electronicAuctionURL": {
-              "title": "Electronic auction URL",
-              "description": "The internet address of the electronic auction.",
-              "type": [
-                "string",
-                "null"
-              ]
-            },
-            "electronicAuctionDescription": {
-              "title": "Electronic auction description",
-              "description": "Any additional information about the electronic auction.",
-              "type": [
-                "string",
-                "null"
-              ]
             }
           }
+        },
+        "electronicAuction": {
+          "title": "Electronic auction",
+          "description": "Whether or not an electronic auction is used.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "electronicAuctionURL": {
+          "title": "Electronic auction URL",
+          "description": "The internet address of the electronic auction.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "electronicAuctionDescription": {
+          "title": "Electronic auction description",
+          "description": "Any additional information about the electronic auction.",
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     }
