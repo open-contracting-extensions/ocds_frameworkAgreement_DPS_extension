@@ -16,6 +16,7 @@
 ],
 "codelists": [
     "dynamicPurchasingSystem.csv",
-    "frameworkAgreementCompetition.csv"
+    "frameworkAgreementCompetition.csv",
+    "electronicCatalogue.csv"
 ]
 }

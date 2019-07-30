@@ -1,0 +1,4 @@
+Code,Title,Description,Deprecated
+required,Required,The tenderers must submit (part of) their bid as an electronic catalogue,
+allowed,Allowed,The tenderers are allowed to submit (part of) their bid as an electronic catalogue,
+notAllowed,Not allowed,The tenderers are not allowed to submit (part of) their bid as an electronic catalogue,

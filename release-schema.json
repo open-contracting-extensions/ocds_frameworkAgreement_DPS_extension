@@ -76,7 +76,14 @@
             "string",
             "null"
           ]
-        }
+      },
+      "electronicCatalogue": {
+          "title": "Electronic catalogue required",
+          "description": "Whether tenderers are required, allowed or not allowed to submit (parts of) bids as electronic catalogues.",
+          "type": ["string","null"],
+          "openCodelist": false,
+          "codelist": "electronicCatalogue.csv"
+      }
       }
     }
   }
