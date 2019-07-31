@@ -1,5 +1,71 @@
-#Procurement techniques extension for EU data
+# Techniques
 
-> OCDS extension to describe the Framework agreement and DPS configuration as expressed in eForms (BG-706, BT-764) and compatible with TED.
+Adds fields to the lot object to describe the use of techniques, such as framework agreements without reopening of competition, framework agreements with reopening of competition, dynamic purchasing systems and electronic auctions.
 
-This extension aims primarily at supporting the description of framework agreements, dynamic purchasing systems (DPS) and electronic catalogue formatted according to eForms data structure, but it also aims at enabling the OCDS publication of TED v2.0.9 data.
+## Legal context
+
+In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques)](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+
+## Examples
+
+### Framework agreement
+
+```json
+{
+  "tender": {
+    "lots": [
+      {
+        "id": "1",
+        "hasFrameworkAgreement": true,
+        "frameworkAgreement": {
+          "maximumNumberParticipants": 100,
+          "method": "withoutReopeningCompetition",
+          "durationRationale": "<A good justification>",
+          "buyerCategories": "all hospitals in the Tuscany region"
+        }
+      }
+    ]
+  }
+}
+```
+
+### Dynamic purchasing system
+
+```json
+{
+  "tender": {
+    "lots": [
+      {
+        "id": "1",
+        "hasDynamicPurchasingSystem": true,
+        "dynamicPurchasingSystem": {
+          "type": "closed"
+        }
+      }
+    ]
+  }
+}
+```
+
+### Electronic auction
+
+```json
+{
+  "tender": {
+    "lots": [
+      {
+        "id": "1",
+        "hasElectronicAuction": true,
+        "electronicAuction": {
+          "url": "https://example.com/auction/1",
+          "description": "<Any relevant details>"
+        }
+      }
+    ]
+  }
+}
+```
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
