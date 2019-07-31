@@ -1,6 +1,6 @@
 # Techniques
 
-Adds fields to the lot object to describe the use of techniques, such as framework agreements without reopening of competition, framework agreements with reopening of competition, dynamic purchasing systems and electronic auctions.
+Adds fields to the tender and lot objects to describe the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.
 
 ## Legal context
 
