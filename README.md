@@ -16,12 +16,14 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
     "lots": [
       {
         "id": "1",
-        "hasFrameworkAgreement": true,
-        "frameworkAgreement": {
-          "maximumNumberParticipants": 100,
-          "method": "withoutReopeningCompetition",
-          "durationRationale": "<A good justification>",
-          "buyerCategories": "all hospitals in the Tuscany region"
+        "techniques": {
+          "hasFrameworkAgreement": true,
+          "frameworkAgreement": {
+            "maximumNumberParticipants": 100,
+            "method": "withoutReopeningCompetition",
+            "durationRationale": "<A good justification>",
+            "buyerCategories": "all hospitals in the Tuscany region"
+          }          
         }
       }
     ]
@@ -37,9 +39,11 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
     "lots": [
       {
         "id": "1",
-        "hasDynamicPurchasingSystem": true,
-        "dynamicPurchasingSystem": {
-          "type": "closed"
+        "techniques": {
+          "hasDynamicPurchasingSystem": true,
+          "dynamicPurchasingSystem": {
+            "type": "closed"
+          }
         }
       }
     ]
@@ -55,10 +59,12 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
     "lots": [
       {
         "id": "1",
-        "hasElectronicAuction": true,
-        "electronicAuction": {
-          "url": "https://example.com/auction/1",
-          "description": "<Any relevant details>"
+        "techniques": {
+          "hasElectronicAuction": true,
+          "electronicAuction": {
+            "url": "https://example.com/auction/1",
+            "description": "<Any relevant details>"
+          }          
         }
       }
     ]
