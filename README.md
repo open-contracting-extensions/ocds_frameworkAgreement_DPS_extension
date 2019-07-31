@@ -15,7 +15,7 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
   "tender": {
     "lots": [
       {
-        "id": 1,
+        "id": "1",
         "hasFrameworkAgreement": true,
         "frameworkAgreement": {
           "maximumNumberParticipants": 100,
@@ -36,7 +36,7 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
   "tender": {
     "lots": [
       {
-        "id": 1,
+        "id": "1",
         "hasDynamicPurchasingSystem": true,
         "dynamicPurchasingSystem": {
           "type": "closed"
@@ -54,7 +54,7 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
   "tender": {
     "lots": [
       {
-        "id": 1,
+        "id": "1",
         "hasElectronicAuction": true,
         "electronicAuction": {
           "url": "https://example.com/auction/1",
