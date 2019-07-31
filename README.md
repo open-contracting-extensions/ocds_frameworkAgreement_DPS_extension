@@ -1,6 +1,6 @@
 # Techniques
 
-Adds fields to the tender object to describe the use of techniques, such as framework agreements without reopening of competition, framework agreements with reopening of competition, dynamic purchasing systems and electronic auctions.
+Adds fields to the lot object to describe the use of techniques, such as framework agreements without reopening of competition, framework agreements with reopening of competition, dynamic purchasing systems and electronic auctions.
 
 ## Legal context
 
@@ -13,13 +13,18 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
 ```json
 {
   "tender": {
-    "hasFrameworkAgreement": true,
-    "frameworkAgreement": {
-      "maximumNumberParticipants": 100,
-      "method": "withoutReopeningCompetition",
-      "durationRationale": "<A good justification>",
-      "buyerCategories": "all hospitals in the Tuscany region"
-    }
+    "lots": [
+      {
+        "id": 1,
+        "hasFrameworkAgreement": true,
+        "frameworkAgreement": {
+          "maximumNumberParticipants": 100,
+          "method": "withoutReopeningCompetition",
+          "durationRationale": "<A good justification>",
+          "buyerCategories": "all hospitals in the Tuscany region"
+        }
+      }
+    ]
   }
 }
 ```
@@ -29,10 +34,15 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
 ```json
 {
   "tender": {
-    "hasDynamicPurchasingSystem": true,
-    "dynamicPurchasingSystem": {
-      "type": "closed"
-    }
+    "lots": [
+      {
+        "id": 1,
+        "hasDynamicPurchasingSystem": true,
+        "dynamicPurchasingSystem": {
+          "type": "closed"
+        }
+      }
+    ]
   }
 }
 ```
@@ -42,11 +52,16 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
 ```json
 {
   "tender": {
-    "hasElectronicAuction": true,
-    "electronicAuction": {
-      "url": "https://example.com/auction/1",
-      "description": "<Any relevant details>"
-    }
+    "lots": [
+      {
+        "id": 1,
+        "hasElectronicAuction": true,
+        "electronicAuction": {
+          "url": "https://example.com/auction/1",
+          "description": "<Any relevant details>"
+        }
+      }
+    ]
   }
 }
 ```
