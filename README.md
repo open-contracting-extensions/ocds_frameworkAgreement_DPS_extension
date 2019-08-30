@@ -19,9 +19,9 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
         "techniques": {
           "hasFrameworkAgreement": true,
           "frameworkAgreement": {
-            "maximumNumberParticipants": 100,
+            "maximumParticipants": 100,
             "method": "withoutReopeningCompetition",
-            "durationRationale": "<A good justification>",
+            "periodRationale": "<A good justification>",
             "buyerCategories": "all hospitals in the Tuscany region"
           }          
         }
