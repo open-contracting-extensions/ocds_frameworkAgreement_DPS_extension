@@ -92,7 +92,7 @@
             null
           ]
         },
-        "durationRationale": {
+        "periodRationale": {
           "title": "Duration rationale",
           "description": "The justification for exceptional cases when the duration of a framework agreement exceeds the legal limits.",
           "type": [
