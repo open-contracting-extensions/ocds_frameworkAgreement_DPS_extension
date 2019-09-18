@@ -21,6 +21,7 @@
     "Techniques": {
       "title": "Techniques",
       "description": "Information about the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.",
+      "type": "object",
       "properties": {
         "hasFrameworkAgreement": {
           "title": "Framework agreement involved",
