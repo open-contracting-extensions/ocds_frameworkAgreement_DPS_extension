@@ -1,5 +1,5 @@
 Code,Title,Description
-pending,Pending,"The DPS has been proposed, but is not yet in force. It might be awaiting signature."
-active,Active,"The DPS has started for all participants."
+pending,Pending,The DPS has been proposed, but is not yet in force. It might be awaiting signature.
+active,Active,The DPS has started for all participants.
 cancelled,Cancelled,This DPS has been cancelled prior to starting.
 terminated,Terminated,"This DPS had started, and has now come to a close. This might be due to its successful completion, or might be early termination due to some non-completion."
