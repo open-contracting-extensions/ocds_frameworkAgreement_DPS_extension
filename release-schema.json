@@ -60,7 +60,7 @@
           "title": "Electronic auction",
           "description": "Information about the electronic auction.",
           "$ref": "#/definitions/ElectronicAuction"
-        }
+      },
       }
     },
     "FrameworkAgreement": {
@@ -129,7 +129,24 @@
             "closed",
             null
           ]
-        }
+        },
+        "status": {
+          "title": "Dynamic purchasing system status",
+          "description": "The status of the dynamic purchasing system",
+          "type": [
+            "string",
+            "null"
+          ],
+          "openCodelist": false,
+          "codelist": "dynamicPurchasingSystemStatus.csv",
+          "enum": [
+            "pending",
+            "active",
+            "cancelled",
+            "terminated",
+            null
+          ]
+        },
       }
     },
     "ElectronicAuction": {

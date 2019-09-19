@@ -23,7 +23,7 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
             "method": "withoutReopeningCompetition",
             "durationRationale": "<A good justification>",
             "buyerCategories": "all hospitals in the Tuscany region"
-          }          
+          }
         }
       }
     ]
@@ -42,7 +42,8 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
         "techniques": {
           "hasDynamicPurchasingSystem": true,
           "dynamicPurchasingSystem": {
-            "type": "closed"
+            "type": "closed",
+            "status": "active"
           }
         }
       }
@@ -64,7 +65,7 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
           "electronicAuction": {
             "url": "https://example.com/auction/1",
             "description": "<Any relevant details>"
-          }          
+          }
         }
       }
     ]
