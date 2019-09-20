@@ -132,8 +132,8 @@
           ]
         },
         "status": {
-          "title": "Dynamic purchasing system status",
-          "description": "The status of the dynamic purchasing system",
+          "title": "Status",
+          "description": "The status of the dynamic purchasing system.",
           "type": [
             "string",
             "null"
