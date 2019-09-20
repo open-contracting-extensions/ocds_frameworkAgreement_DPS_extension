@@ -130,6 +130,23 @@
             "closed",
             null
           ]
+        },
+        "status": {
+          "title": "Status",
+          "description": "The status of the dynamic purchasing system.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "openCodelist": false,
+          "codelist": "dynamicPurchasingSystemStatus.csv",
+          "enum": [
+            "pending",
+            "active",
+            "cancelled",
+            "terminated",
+            null
+          ]
         }
       }
     },
