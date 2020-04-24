@@ -62,7 +62,8 @@
           "description": "Information about the electronic auction.",
           "$ref": "#/definitions/ElectronicAuction"
         }
-      }
+      },
+      "minProperties": 1
     },
     "FrameworkAgreement": {
       "title": "Framework agreement",
@@ -99,7 +100,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "buyerCategories": {
           "title": "Buyer categories",
@@ -107,9 +109,11 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
-      }
+      },
+      "minProperties": 1
     },
     "DynamicPurchasingSystem": {
       "title": "Dynamic purchasing system",
@@ -148,7 +152,8 @@
             null
           ]
         }
-      }
+      },
+      "minProperties": 1
     },
     "ElectronicAuction": {
       "title": "Electronic auction",
@@ -161,7 +166,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "description": {
           "title": "Description",
@@ -169,9 +175,11 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
-      }
+      },
+      "minProperties": 1
     }
   }
 }
