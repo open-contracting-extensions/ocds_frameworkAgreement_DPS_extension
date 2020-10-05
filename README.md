@@ -23,7 +23,14 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
             "maximumParticipants": 100,
             "method": "withoutReopeningCompetition",
             "periodRationale": "<A good justification>",
-            "buyerCategories": "all hospitals in the Tuscany region"
+            "buyerCategories": "all hospitals in the Tuscany region",
+            "value": {
+              "amount": 240000,
+              "currency": "EUR"
+            },
+            "period": {
+              "durationInDays": 730
+            }
           }
         }
       }
@@ -82,7 +89,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-10-05
 
-* Add `minimumParticipants` field to `frameworkAgreement`.
+* Add `minimumParticipants`, `value` fields to `frameworkAgreement`
 
 ### 2020-04-24
 

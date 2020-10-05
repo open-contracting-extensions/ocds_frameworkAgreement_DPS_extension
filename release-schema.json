@@ -119,6 +119,16 @@
             "null"
           ],
           "minLength": 1
+        },
+        "value": {
+          "title": "Value",
+          "description": "The total upper estimated value of the framework agreement.",
+          "$ref": "#/definitions/Value"
+        },
+        "period": {
+          "title": "Period",
+          "description": "The period when the framework agreement is active.",
+          "$ref": "#/definitions/Period"
         }
       },
       "minProperties": 1
