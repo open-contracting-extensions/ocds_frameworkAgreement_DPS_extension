@@ -70,6 +70,14 @@
       "description": "Information about the framework agreement.",
       "type": "object",
       "properties": {
+        "minimumParticipants": {
+          "title": "Minimum number of participants",
+          "description": "The minimum number of participants in the framework agreement.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
         "maximumParticipants": {
           "title": "Maximum number of participants",
           "description": "The maximum number of participants in the framework agreement. If there is no maximum, set to 1e9999 (which parses to infinity).",

@@ -19,6 +19,7 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
         "techniques": {
           "hasFrameworkAgreement": true,
           "frameworkAgreement": {
+            "minimumParticipants": 2,
             "maximumParticipants": 100,
             "method": "withoutReopeningCompetition",
             "periodRationale": "<A good justification>",
@@ -78,6 +79,10 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-10-05
+
+* Add `minimumParticipants` field to `frameworkAgreement`.
 
 ### 2020-04-24
 
