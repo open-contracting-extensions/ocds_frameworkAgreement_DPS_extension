@@ -129,6 +129,14 @@
           "title": "Period",
           "description": "The period when the framework agreement is active.",
           "$ref": "#/definitions/Period"
+        },
+        "description": {
+          "title": "Description",
+          "description": "A summary description of the framework agreement. This complements any structured information provided using the other fields. Descriptions should be short and easy to read. Avoid using ALL CAPS.",
+          "type": [
+            "string",
+            "null"
+          ]
         }
       },
       "minProperties": 1

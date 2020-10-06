@@ -30,7 +30,8 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
             },
             "period": {
               "durationInDays": 730
-            }
+            },
+            "description": "Call offs are estimated to be organized every 3 months, with an average value of 60,000 euros per contract."
           }
         }
       }
