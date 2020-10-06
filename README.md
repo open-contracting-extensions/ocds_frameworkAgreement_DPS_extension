@@ -90,7 +90,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-10-05
 
-* Add `minimumParticipants`, `value` fields to `frameworkAgreement`
+* Add `minimumParticipants`, `value` and `period` fields to the `FrameworkAgreement` object.
 
 ### 2020-04-24
 

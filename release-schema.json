@@ -127,7 +127,7 @@
         },
         "period": {
           "title": "Period",
-          "description": "The period when the framework agreement is active.",
+          "description": "The period over which the framework agreement is estimated to be active.",
           "$ref": "#/definitions/Period"
         },
         "description": {
