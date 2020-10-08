@@ -2,10 +2,6 @@
 
 Adds fields to the tender and lot objects to describe the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.
 
-## Legal context
-
-In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques)](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
-
 ## Guidance
 
 ### Framework agreement's `value` and `period`
@@ -19,6 +15,10 @@ Here are the possible value for `FrameworkAgreement.method`, and common synonyms
 - withoutReopeningCompetition: call-offs
 - withReopeningCompetition: mini-competitions
 - withAndWithoutReopeningCompetition: call-offs and mini-competitions
+-
+## Legal context
+
+In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques)](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Examples
 
