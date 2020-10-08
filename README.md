@@ -6,6 +6,20 @@ Adds fields to the tender and lot objects to describe the use of techniques, suc
 
 In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques)](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
+## Guidance
+
+### Framework agreement's `value` and `period`
+
+The `value` and `period` fields of the `FrameworkAgreement` object should only be used if the procurement process has more than one framework agreement and if each data source provides this information for **each** contract and framework agreement.
+
+### Framework agreement's `method`
+
+Here are the possible value for `FrameworkAgreement.method`, and common synonyms:
+
+- withoutReopeningCompetition: call-offs
+- withReopeningCompetition: mini-competitions
+- withAndWithoutReopeningCompetition: call-offs and mini-competitions
+
 ## Examples
 
 ### Framework agreement
