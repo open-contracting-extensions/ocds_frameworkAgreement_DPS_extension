@@ -6,7 +6,10 @@ Adds fields to the tender and lot objects to describe the use of techniques, suc
 
 ### Framework agreement's `value` and `period`
 
-The `value` and `period` fields of the `FrameworkAgreement` object should only be used if the procurement process has more than one framework agreement and if each data source provides this information for **each** contract and framework agreement.
+The `value` and `period` fields of `FrameworkAgreement` objects should only be used if a data source provides values and periods for both the contract/lot and the framework agreement, like TED XML Schema R2.08. Otherwise:
+
+* If a procurement isn't divided into lots, use the `tender.value` and `tender.contractPeriod` fields.
+* If a procurement is divided into lots, use the `value` and `contractPeriod` fields of `Lot` objects.
 
 ### Framework agreement's `method`
 
