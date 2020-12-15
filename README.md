@@ -13,12 +13,12 @@ The `value` and `period` fields of `FrameworkAgreement` objects should only be u
 
 ### Framework agreement's `method`
 
-Here are the possible value for `FrameworkAgreement.method`, and common synonyms:
+Here are the possible values for `FrameworkAgreement.method`, and common synonyms:
 
 - withoutReopeningCompetition: call-offs
 - withReopeningCompetition: mini-competitions
 - withAndWithoutReopeningCompetition: call-offs and mini-competitions
--
+
 ## Legal context
 
 In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques)](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
