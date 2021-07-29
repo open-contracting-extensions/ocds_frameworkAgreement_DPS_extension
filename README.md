@@ -13,7 +13,7 @@ The `value` and `period` fields of `FrameworkAgreement` objects should only be u
 
 ### Framework agreement's `method`
 
-Here are the possible values for `FrameworkAgreement.method`, and common synonyms:
+Here are the possible values for a framework agreement's `method` field, and common synonyms:
 
 - withoutReopeningCompetition: call-offs
 - withReopeningCompetition: mini-competitions
