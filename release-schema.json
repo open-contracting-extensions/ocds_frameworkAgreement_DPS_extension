@@ -18,6 +18,15 @@
         }
       }
     },
+    "LotGroup": {
+      "properties": {
+        "techniques": {
+          "title": "Techniques",
+          "description": "Information about the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.",
+          "$ref": "#/definitions/Techniques"
+        }
+      }
+    },
     "Techniques": {
       "title": "Techniques",
       "description": "Information about the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.",
@@ -123,6 +132,11 @@
         "value": {
           "title": "Value",
           "description": "The total upper estimated value of the framework agreement.",
+          "$ref": "#/definitions/Value"
+        },
+        "maximumValue": {
+          "title": "Value",
+          "description": "The estimated maximum value of the framework agreement, as estimated when publishing the tender information.",
           "$ref": "#/definitions/Value"
         },
         "period": {

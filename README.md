@@ -1,6 +1,6 @@
 # Techniques
 
-Adds fields to the tender and lot objects to describe the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.
+Adds fields to the tender, lot and lot group objects to describe the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.
 
 ## Guidance
 
@@ -21,7 +21,7 @@ Here are the possible values for a framework agreement's `method` field, and com
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/).
 
 ## Examples
 
@@ -43,6 +43,10 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
             "buyerCategories": "all hospitals in the Tuscany region",
             "value": {
               "amount": 240000,
+              "currency": "EUR"
+            },
+            "maximumValue": {
+              "amount": 300000,
               "currency": "EUR"
             },
             "period": {
@@ -104,6 +108,12 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2023-05-30
+
+* Add fields:
+  * `LotGroup.techniques`
+  * `FrameworkAgreement.maximumValue`
 
 ### 2020-10-05
 
