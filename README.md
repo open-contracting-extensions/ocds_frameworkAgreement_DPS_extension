@@ -21,7 +21,7 @@ Here are the possible values for a framework agreement's `method` field, and com
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/).
+In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques), BG-557 (Group Framework Maximum Value and BT-271 (Framework Maximum Value)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/).
 
 ## Examples
 
