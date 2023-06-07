@@ -6,6 +6,14 @@
           "title": "Techniques",
           "description": "Information about the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.",
           "$ref": "#/definitions/Techniques"
+        },
+        "competitive": {
+          "title": "Is the framework agreement call-off competitive?",
+          "description": "A true/false field to indicate whether this call-off is competitive or not.",
+          "type": [
+            "boolean",
+            "null"
+          ]
         }
       }
     },
