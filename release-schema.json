@@ -9,7 +9,7 @@
         },
         "competitive": {
           "title": "Is the framework agreement call-off competitive?",
-          "description": "A true/false field to indicate whether this call-off is competitive or not.",
+          "description": "Whether this call-off is competitive or not.",
           "type": [
             "boolean",
             "null"
