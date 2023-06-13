@@ -142,11 +142,6 @@
           "description": "The total upper estimated value of the framework agreement.",
           "$ref": "#/definitions/Value"
         },
-        "maximumValue": {
-          "title": "Value",
-          "description": "The estimated maximum value of the framework agreement, as estimated when publishing the tender information.",
-          "$ref": "#/definitions/Value"
-        },
         "period": {
           "title": "Period",
           "description": "The period over which the framework agreement is estimated to be active.",

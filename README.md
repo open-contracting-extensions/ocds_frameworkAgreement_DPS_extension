@@ -45,10 +45,6 @@ In the European Union, this extension's fields correspond to [eForms BG-706 (Tec
               "amount": 240000,
               "currency": "EUR"
             },
-            "maximumValue": {
-              "amount": 300000,
-              "currency": "EUR"
-            },
             "period": {
               "durationInDays": 730
             },
@@ -172,7 +168,6 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 * Merge the [Competitive](https://github.com/open-contracting-extensions/ocds_competitive_extension) extension.
 * Add fields:
   * `LotGroup.techniques`
-  * `FrameworkAgreement.maximumValue`
 
 ### 2020-10-05
 
