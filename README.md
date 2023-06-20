@@ -166,8 +166,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2023-06-07
 
 * Merge the [Competitive](https://github.com/open-contracting-extensions/ocds_competitive_extension) extension.
-* Add fields:
-  * `LotGroup.techniques`
+* Add `LotGroup.techniques` field.
 
 ### 2020-10-05
 
