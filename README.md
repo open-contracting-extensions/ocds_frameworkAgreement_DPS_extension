@@ -1,6 +1,6 @@
 # Techniques
 
-Adds fields to the tender and lot objects to describe the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions. Also, adds a field to the tender object in a framework agreement call-off to indicate if it is competitive or direct.
+Adds fields to the tender, lot and lot group objects to describe the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions. Also, adds a field to the tender object in a framework agreement call-off to indicate if it is competitive or direct.
 
 ## Guidance
 
@@ -21,7 +21,7 @@ Here are the possible values for a framework agreement's `method` field, and com
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
+In the European Union, this extension's fields correspond to [eForms BG-706 (Techniques), BG-157 (Group Framework Maximum Value and BT-271 (Framework Maximum Value)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
 
 ## Examples
 
@@ -166,6 +166,8 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2023-06-07
 
 * Merge the [Competitive](https://github.com/open-contracting-extensions/ocds_competitive_extension) extension.
+* Add fields:
+  * `LotGroup.techniques`
 
 ### 2020-10-05
 

@@ -26,6 +26,15 @@
         }
       }
     },
+    "LotGroup": {
+      "properties": {
+        "techniques": {
+          "title": "Techniques",
+          "description": "Information about the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.",
+          "$ref": "#/definitions/Techniques"
+        }
+      }
+    },
     "Techniques": {
       "title": "Techniques",
       "description": "Information about the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions.",

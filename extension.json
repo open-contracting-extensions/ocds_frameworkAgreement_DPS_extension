@@ -3,7 +3,7 @@
     "en": "Techniques"
   },
   "description": {
-    "en": "Adds fields to the tender and lot objects to describe the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions."
+    "en": "Adds fields to the tender, lot and lot group objects to describe the use of techniques, such as framework agreements, dynamic purchasing systems and electronic auctions."
   },
   "documentationUrl": {
     "en": "https://extensions.open-contracting.org/en/extensions/techniques/"
