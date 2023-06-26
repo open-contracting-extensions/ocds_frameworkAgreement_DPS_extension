@@ -110,8 +110,8 @@
             "string",
             "null"
           ],
-          "openCodelist": false,
           "codelist": "frameworkAgreementMethod.csv",
+          "openCodelist": false,
           "enum": [
             "withReopeningCompetition",
             "withoutReopeningCompetition",
@@ -171,8 +171,8 @@
             "string",
             "null"
           ],
-          "openCodelist": false,
           "codelist": "dynamicPurchasingSystemType.csv",
+          "openCodelist": false,
           "enum": [
             "open",
             "closed",
@@ -186,8 +186,8 @@
             "string",
             "null"
           ],
-          "openCodelist": false,
           "codelist": "dynamicPurchasingSystemStatus.csv",
+          "openCodelist": false,
           "enum": [
             "pending",
             "active",
